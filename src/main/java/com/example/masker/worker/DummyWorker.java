@@ -10,7 +10,7 @@ public class DummyWorker {
 
     @Scheduled(fixedRate = 10000)
     public void fixedRateTask() {
-        log.info("Nothing important");
+        log.info("Dummy address JSON: {\"address\":\"dummy\"}");
     }
 
 }
